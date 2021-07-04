@@ -2,13 +2,12 @@
 
 mention-all-bot is a telegram bot that helps to mention all users in a group.
 
-## 
+## Deploy
+<a href="https://heroku.com/deploy?template=https://github.com/justteen/mentionbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-1. Add to your group
+Everyone who wants to receive notifications opts-in using /in
 
-1. Everyone who wants to receive notifications opts-in using /in
-
-1. Now you can call everyone with /all
+Now you can call everyone with /all
 
 Commands:
 
