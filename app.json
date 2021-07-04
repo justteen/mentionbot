@@ -9,13 +9,8 @@
         "mention"
     ],
     "buildpacks": [{
-    "url": "heroku/python"
-  }],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "url": "heroku/python"}],
+
     },
     "env": {
         "APP_NAME": {
