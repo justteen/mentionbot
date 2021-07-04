@@ -1,0 +1,38 @@
+{
+    "name": "buzz MENTION",
+    "description": "BOT UNTUK MENTION ALL.",
+    "repository": "https://github.com/justteen/mentionbot",
+    "logo": "https://telegra.ph/file/da4acedaf43a1550cc057.jpg",
+    "keywords": [
+        "python",
+        "telegram",
+        "mention"
+    ],
+    "buildpacks": [{
+    "url": "heroku/python"
+    }],
+    
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "APP_NAME": {
+            "description": "Heroku App Name",
+            "value": "",
+            "required": true
+        },
+        "TGBOT_TOKEN": {
+            "description": "Your bot token, as a string.",
+            "value": "1895190567:AAEnQA28w9LwidaMqXCnlKxc8yENSMXAkIY",
+            "required": true
+        },
+        "DB_PWD": {
+            "description": "paswornya ",
+            "value": "buzz8080",
+            "required": true
+        }
+    }
+}
